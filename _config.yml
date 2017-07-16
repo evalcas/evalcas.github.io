@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Edwin Valencia / Personal Home Page"
+title                    : "Edwin Valencia"
 title_separator          : "-"
 name                     : &name "Edwin"
 description              : &description "personal description"
@@ -77,7 +77,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Edwin Valencia"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
