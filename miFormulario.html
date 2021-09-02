@@ -7,34 +7,28 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>HTML</title>
+        <title>Formulario de Registro</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
     <body>
-        <header>
-            <h1>Laboratorio de Visual Studio Code</h1>
-        </header>
-        <nav>
-            <a href="acerca.html">About</a>
-            <a href="contactos.html">Contactos</a>
-            <a href="miFormulario.html">Formulario de registro</a>
-            <a href="tailwindcss.html">Utilizando tailwind</a>
-            <a href="bootstrapcss.html">Utilizando bootstrap</a>
-            <a href="estilocss.html">Utilizando css</a>
-        </nav>
         <div>
-            <article>
-
-            </article>
-
-        </div>
+            <h3>Envíanos tus sugerencias por e‐mail</h3>
+            <form action="MAILTO:sugerencias@miempresa.com" method="post" enctype="text/plain">
+            Nombre:<br>
+            <input type="text" name="name" value="tu nombre"><br>
+            E‐mail:<br>
+            <input type="text" name="mail" value="tu email"><br>
+            Sugerencia:<br>
+            <input type="text" name="comment" value="Tus sugerencias" size="50"><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            </form>
             
 
-        <footer>
-            <h3>&copy; Edwin Valencia</h3>
-        </footer>
+
+        </div>
         
         <script src="" async defer></script>
     </body>
